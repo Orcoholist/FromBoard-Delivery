@@ -1,0 +1,134 @@
+* {
+  /* height: 100%; */
+  font-family: var(--font-family, sans-serif);
+  /* -webkit-text-size-adjust: 100%; */
+  color: #111827;
+  box-sizing: border-box;
+  font-size: 16px;
+  /* overflow-x:hidden */
+  --font-family: "Formular", sans-serif;
+  /* --content-width: 1536px; */
+  /* --container-offset: 15px; */
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --main-color: #111827;
+  --light-color: #f9fafb;
+  --purple-color: #a78bfa;
+  --purple-dark-color: #8b5cf6;
+  --gray-color: #e5e7eb;
+  --gray-light-color: #9ca3af;
+  --black-color: #000;
+  --active-color: #6d28d9;
+  --disabled-color: #ddd6fe;
+}
+:root {
+}
+
+.body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+  font-size: 16px;
+}
+
+.header__row {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+}
+.header__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 0px 25px 200px;
+}
+
+.header__top-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 74px;
+  margin-right: 650px;
+}
+.header__top-logo {
+  /* min-width: 300px; */
+  /* width: 50px; */
+  height: 74px;
+}
+.header__top-text {
+  width: 270px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.header__top img {
+  width: 50px;
+  height: 74px;
+}
+
+.header__info {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin: 0px 0 25px 620px; */
+  margin-right: 210px;
+  /* width: 730px;
+  height: 80px; */
+}
+
+.header__info-cost {
+  width: 350px;
+  height: 75px;
+  word-wrap: break-word;
+  min-width: 365px;
+  text-align: end;
+  padding-right: 12px;
+  border-right: 1px solid var(--purple-color);
+  font-weight: 400;
+  line-height: 0.8;
+}
+.header__info-phone {
+  width: 400px;
+  font-size: 24px;
+  padding: 0px 12px;
+}
+
+.header__info-phone span {
+  width: 341px;
+  height: 40px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 0 160px;
+}
+
+.header__nav ul {
+  display: flex;
+  column-gap: 24px;
+  list-style: none;
+  font-weight: 700;
+}
+
+.header__nav li:hover {
+  color: #8b5cf6;
+  cursor: pointer;
+}
+
+.header__nav button {
+  width: 200px;
+  height: 44px;
+  background-color: #8b5cf6;
+  color: #fff;
+  padding: 10px, 28px, 10px, 28px;
+  border-radius: 4px;
+  gap: 4px;
+}
